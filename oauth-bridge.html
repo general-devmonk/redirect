@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <title>OAuth Redirect</title>
+
+        <!-- Prevent caching -->
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+        <meta http-equiv="Pragma" content="no-cache">
+
+        <!-- Force HTTPS -->
+        <meta http-equiv="Strict-Transport-Security" content="max-age=63072000; includeSubDomains; preload">
+
+        <!-- Strict security policies -->
+        <meta http-equiv="Content-Security-Policy"
+            content="default-src 'none'; script-src 'self' 'strict-dynamic'; connect-src 'none'; img-src 'none'; style-src 'none'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'; object-src 'none'; script-src-attr 'none'; script-src-elem 'self';">
+
+        <meta http-equiv="X-Frame-Options" content="DENY">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff">
+        <meta name="referrer" content="no-referrer">
+
+        <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=()">
+
+        <meta name="robots" content="noindex, nofollow">
+
+    </head>
+
+    <body>
+        <p id="status">Processing OAuth redirect…</p>
+
+        <script src="./redirect.js" defer></script>
+
+    </body>
+
+</html>
